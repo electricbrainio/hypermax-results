@@ -1,0 +1,155 @@
+{
+    "function": {
+        "auto_kill_loss": 10,
+        "auto_kill_max_time": 180,
+        "module": "optimize_email_body_accuracy",
+        "name": "testHyperParameters",
+        "parallel": 1,
+        "type": "python_function"
+    },
+    "hypermax_results": {
+        "algorithm": "lightgbm",
+        "author": "Bradley Arsenault",
+        "contact": "brad@electricbrain.io",
+        "date": "August 8, 2018",
+        "description": "These are the results from doing a very large random search on an email data extraction problem that we had at Electric Brain. We are optimizing a two-layered lightgbm system, where the two layers have different window sizes. The model takes word-vectors as inputs, and outputs a classification. The metric is Area-Under-Curve. The results are a combination of runs on two different servers with different specs, some the Time variable is not useful. The run was prepared first by doing a 4500 trial random search over the full hyperparameter space. This was followed by constraining the hyperparameters, and doing another 1,000 random trials. Lastly, we did 500 trials with the TPE algorithm, to put the icing on the top of the dataset.",
+        "input_types": [
+            "text"
+        ],
+        "metrics": [
+            "auc"
+        ],
+        "name": "email_entity_extraction",
+        "output_types": [
+            "classification"
+        ],
+        "upload_frequency": 100
+    },
+    "hyperparameters": {
+        "properties": {
+            "layer_0": {
+                "properties": {
+                    "bagging_fraction": {
+                        "max": 1.0,
+                        "min": 0.1,
+                        "mode": "uniform",
+                        "scaling": "linear",
+                        "type": "number"
+                    },
+                    "boosting_rounds": {
+                        "max": 75,
+                        "min": 5,
+                        "mode": "uniform",
+                        "rounding": 1,
+                        "scaling": "logarithmic",
+                        "type": "number"
+                    },
+                    "feature_fraction": {
+                        "max": 1.0,
+                        "min": 0.5,
+                        "mode": "uniform",
+                        "scaling": "linear",
+                        "type": "number"
+                    },
+                    "input_window": {
+                        "max": 3,
+                        "min": 0,
+                        "mode": "uniform",
+                        "rounding": 1,
+                        "scaling": "linear",
+                        "type": "number"
+                    },
+                    "learning_rate": {
+                        "max": 0.5,
+                        "min": 0.08,
+                        "mode": "uniform",
+                        "scaling": "logarithmic",
+                        "type": "number"
+                    },
+                    "max_depth": {
+                        "max": 16,
+                        "min": 8,
+                        "mode": "uniform",
+                        "rounding": 1,
+                        "scaling": "linear",
+                        "type": "number"
+                    },
+                    "min_data_in_leaf": {
+                        "max": 80,
+                        "min": 20,
+                        "mode": "uniform",
+                        "rounding": 1,
+                        "scaling": "linear",
+                        "type": "number"
+                    },
+                    "num_leaves": {
+                        "max": 50,
+                        "min": 5,
+                        "mode": "uniform",
+                        "rounding": 1,
+                        "scaling": "linear",
+                        "type": "number"
+                    }
+                },
+                "type": "object"
+            },
+            "layer_1": {
+                "properties": {
+                    "boosting_rounds": {
+                        "max": 75,
+                        "min": 5,
+                        "mode": "uniform",
+                        "rounding": 1,
+                        "scaling": "logarithmic",
+                        "type": "number"
+                    },
+                    "input_window": {
+                        "max": 5,
+                        "min": 3,
+                        "mode": "uniform",
+                        "rounding": 1,
+                        "scaling": "linear",
+                        "type": "number"
+                    },
+                    "learning_rate": {
+                        "max": 0.3,
+                        "min": 0.01,
+                        "mode": "uniform",
+                        "scaling": "logarithmic",
+                        "type": "number"
+                    },
+                    "max_depth": {
+                        "max": 16,
+                        "min": 2,
+                        "mode": "uniform",
+                        "rounding": 1,
+                        "scaling": "linear",
+                        "type": "number"
+                    },
+                    "min_data_in_leaf": {
+                        "max": 100,
+                        "min": 1,
+                        "mode": "uniform",
+                        "rounding": 1,
+                        "scaling": "linear",
+                        "type": "number"
+                    },
+                    "num_leaves": {
+                        "max": 50,
+                        "min": 5,
+                        "mode": "uniform",
+                        "rounding": 1,
+                        "scaling": "linear",
+                        "type": "number"
+                    }
+                },
+                "type": "object"
+            }
+        },
+        "type": "object"
+    },
+    "search": {
+        "iterations": 6001,
+        "method": "tpe"
+    }
+}

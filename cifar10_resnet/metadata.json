@@ -1,0 +1,18 @@
+{
+    "name": "cifar10_resnet",
+    "upload_frequency": 10,
+    "author": "Bradley Arsenault",
+    "contact": "brad@electricbrain.io",
+    "date": "August 8, 2018",
+    "description": "These are the results from doing a random search using on the cifar10 dataset. We used the fast-ai code available here: https://github.com/fastai/imagenet-fast/tree/master/cifar10 but modified it to introduce hyperparameters that could be optimized. It was chosen because it converges very quickly.",
+    "algorithm": "convnet",
+    "input_types": [
+        "image"
+    ],
+    "output_types": [
+        "classification"
+    ],
+    "metrics": [
+        "accuracy"
+    ]
+}

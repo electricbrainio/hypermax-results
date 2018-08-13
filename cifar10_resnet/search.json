@@ -1,0 +1,113 @@
+{
+    "function": {
+        "command": "source /home/bradley/imagenet-fast/cifar10/venv/bin/activate; cd /home/bradley/imagenet-fast/cifar10/; killall python -s9; killall python -s9; python test.py",
+        "hosts": [
+		"localhost"
+        ],
+        "parallel": 1,
+        "type": "remote"
+    },
+    "hyperparameters": {
+        "properties": {
+            "activation": {
+                "enum": [
+                    "relu",
+                    "elu",
+                    "selu",
+                    "rrelu"
+                ],
+                "type": "string"
+            },
+            "layer1_layers": {
+                "max": 3,
+                "min": 1,
+                "mode": "uniform",
+                "rounding": 1,
+                "scaling": "linear",
+                "type": "number"
+            },
+            "layer1_size": {
+                "max": 96,
+                "min": 32,
+                "mode": "uniform",
+                "rounding": 16,
+                "scaling": "logarithmic",
+                "type": "number"
+            },
+            "layer2_layers": {
+                "max": 3,
+                "min": 1,
+                "mode": "uniform",
+                "rounding": 1,
+                "scaling": "linear",
+                "type": "number"
+            },
+            "layer2_size": {
+                "max": 192,
+                "min": 64,
+                "mode": "uniform",
+                "rounding": 32,
+                "scaling": "logarithmic",
+                "type": "number"
+            },
+            "layer3_layers": {
+                "max": 3,
+                "min": 1,
+                "mode": "uniform",
+                "rounding": 1,
+                "scaling": "linear",
+                "type": "number"
+            },
+            "layer3_size": {
+                "max": 384,
+                "min": 128,
+                "mode": "uniform",
+                "rounding": 64,
+                "scaling": "logarithmic",
+                "type": "number"
+            },
+            "layer4_layers": {
+                "max": 3,
+                "min": 1,
+                "mode": "uniform",
+                "rounding": 1,
+                "scaling": "linear",
+                "type": "number"
+            },
+            "layer4_size": {
+                "max": 768,
+                "min": 256,
+                "mode": "uniform",
+                "rounding": 128,
+                "scaling": "logarithmic",
+                "type": "number"
+            },
+            "learning_rate": {
+                "max": 3.0,
+                "min": 0.1,
+                "mode": "uniform",
+                "scaling": "linear",
+                "type": "number"
+            },
+            "weight_decay": {
+                "max": 0.002,
+                "min": 2e-05,
+                "mode": "uniform",
+                "scaling": "logarithmic",
+                "type": "number"
+            }
+        },
+        "type": "object"
+    },
+    "results": {
+        "directory": "results",
+        "graphs": false
+    },
+    "search": {
+        "iterations": 3000,
+        "method": "random"
+    },
+    "ui": {
+        "enabled": false
+    }
+}

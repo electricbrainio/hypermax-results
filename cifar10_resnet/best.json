@@ -1,0 +1,19 @@
+{
+    "activation": "elu",
+    "error": null,
+    "layer1_layers": 3,
+    "layer1_size": 96,
+    "layer2_layers": 3,
+    "layer2_size": 192,
+    "layer3_layers": 2,
+    "layer3_size": 192,
+    "layer4_layers": 3,
+    "layer4_size": 384,
+    "learning_rate": 1.6258985446879,
+    "log": "",
+    "loss": 0.0943,
+    "status": "ok",
+    "time": 1671.32149,
+    "trial": 2496,
+    "weight_decay": 2.7649061374076e-05
+}

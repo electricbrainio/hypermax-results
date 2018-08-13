@@ -1,0 +1,22 @@
+{
+    "error": null,
+    "layer_0.bagging_fraction": 0.9340800726738148,
+    "layer_0.boosting_rounds": 75.0,
+    "layer_0.feature_fraction": 0.5459032193418069,
+    "layer_0.input_window": 3.0,
+    "layer_0.learning_rate": 0.1547100241463565,
+    "layer_0.max_depth": 11.0,
+    "layer_0.min_data_in_leaf": 76.0,
+    "layer_0.num_leaves": 24.0,
+    "layer_1.boosting_rounds": 28.0,
+    "layer_1.input_window": 4.0,
+    "layer_1.learning_rate": 0.20480395281368624,
+    "layer_1.max_depth": 2.0,
+    "layer_1.min_data_in_leaf": 84.0,
+    "layer_1.num_leaves": 10.0,
+    "log": "",
+    "loss": 0.10237553630982073,
+    "status": "ok",
+    "time": 50.191577,
+    "trial": 5787
+}

@@ -1,0 +1,18 @@
+{
+    "output_types": [
+        "classification"
+    ],
+    "metrics": [
+        "auc"
+    ],
+    "input_types": [
+        "text"
+    ],
+    "upload_frequency": 100,
+    "algorithm": "lightgbm",
+    "date": "August 8, 2018",
+    "author": "Bradley Arsenault",
+    "contact": "brad@electricbrain.io",
+    "description": "These are the results from doing a very large random search on an email data extraction problem that we had at Electric Brain. We are optimizing a two-layered lightgbm system, where the two layers have different window sizes. The model takes word-vectors as inputs, and outputs a classification. The metric is Area-Under-Curve. The results are a combination of runs on two different servers with different specs, some the Time variable is not useful. The run was prepared first by doing a 4500 trial random search over the full hyperparameter space. This was followed by constraining the hyperparameters, and doing another 1,000 random trials. Lastly, we did 500 trials with the TPE algorithm, to put the icing on the top of the dataset.",
+    "name": "email_entity_extraction"
+}
