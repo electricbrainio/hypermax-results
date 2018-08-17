@@ -1,72 +1,72 @@
 [
     {
         "params": {
-            "eighth_value": 7.0,
-            "fifth_value": 57.0,
-            "first_value": 1.0,
-            "fourth_value": 15.0,
-            "second_value": 225.0,
-            "seventh_value": 195.0,
-            "sixth_value": 31.0,
-            "third_value": 2.0
+            "eighth_value": 481.0,
+            "fifth_value": 396.0,
+            "first_value": 12.0,
+            "fourth_value": 850.0,
+            "second_value": 435.0,
+            "seventh_value": 14.0,
+            "sixth_value": 90.0,
+            "third_value": 5.0
         },
-        "trial": 10,
+        "trial": 25,
         "worker": 0
     },
     {
         "params": {
-            "eighth_value": 1.0,
-            "fifth_value": 34.0,
-            "first_value": 66.0,
-            "fourth_value": 4.0,
-            "second_value": 4.0,
-            "seventh_value": 2.0,
-            "sixth_value": 473.0,
-            "third_value": 338.0
+            "eighth_value": 328.0,
+            "fifth_value": 142.0,
+            "first_value": 5.0,
+            "fourth_value": 308.0,
+            "second_value": 506.0,
+            "seventh_value": 59.0,
+            "sixth_value": 57.0,
+            "third_value": 8.0
         },
-        "trial": 11,
+        "trial": 26,
         "worker": 1
     },
     {
         "params": {
-            "eighth_value": 130.0,
-            "fifth_value": 154.0,
-            "first_value": 8.0,
-            "fourth_value": 440.0,
-            "second_value": 225.0,
+            "eighth_value": 300.0,
+            "fifth_value": 159.0,
+            "first_value": 18.0,
+            "fourth_value": 890.0,
+            "second_value": 378.0,
             "seventh_value": 2.0,
             "sixth_value": 72.0,
-            "third_value": 2.0
+            "third_value": 18.0
         },
-        "trial": 12,
+        "trial": 27,
         "worker": 2
     },
     {
         "params": {
-            "eighth_value": 574.0,
-            "fifth_value": 112.0,
-            "first_value": 4.0,
-            "fourth_value": 246.0,
-            "second_value": 103.0,
-            "seventh_value": 2.0,
-            "sixth_value": 32.0,
-            "third_value": 4.0
+            "eighth_value": 468.0,
+            "fifth_value": 119.0,
+            "first_value": 7.0,
+            "fourth_value": 346.0,
+            "second_value": 839.0,
+            "seventh_value": 21.0,
+            "sixth_value": 18.0,
+            "third_value": 5.0
         },
-        "trial": 13,
+        "trial": 28,
         "worker": 3
     },
     {
         "params": {
-            "eighth_value": 51.0,
-            "fifth_value": 194.0,
-            "first_value": 11.0,
-            "fourth_value": 255.0,
-            "second_value": 445.0,
-            "seventh_value": 129.0,
-            "sixth_value": 27.0,
-            "third_value": 13.0
+            "eighth_value": 690.0,
+            "fifth_value": 106.0,
+            "first_value": 13.0,
+            "fourth_value": 165.0,
+            "second_value": 354.0,
+            "seventh_value": 14.0,
+            "sixth_value": 18.0,
+            "third_value": 3.0
         },
-        "trial": 14,
+        "trial": 29,
         "worker": 4
     }
 ]
