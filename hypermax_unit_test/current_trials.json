@@ -1,44 +1,72 @@
 [
     {
         "params": {
-            "eighth_value": 30.0,
-            "fifth_value": 24.0,
-            "first_value": 37.0,
-            "fourth_value": 2.0,
-            "second_value": 175.0,
-            "seventh_value": 9.0,
-            "sixth_value": 94.0,
-            "third_value": 24.0
+            "eighth_value": 7.0,
+            "fifth_value": 57.0,
+            "first_value": 1.0,
+            "fourth_value": 15.0,
+            "second_value": 225.0,
+            "seventh_value": 195.0,
+            "sixth_value": 31.0,
+            "third_value": 2.0
         },
         "trial": 10,
         "worker": 0
     },
     {
         "params": {
-            "eighth_value": 130.0,
-            "fifth_value": 2.0,
-            "first_value": 7.0,
-            "fourth_value": 23.0,
-            "second_value": 11.0,
-            "seventh_value": 257.0,
-            "sixth_value": 304.0,
-            "third_value": 14.0
+            "eighth_value": 1.0,
+            "fifth_value": 34.0,
+            "first_value": 66.0,
+            "fourth_value": 4.0,
+            "second_value": 4.0,
+            "seventh_value": 2.0,
+            "sixth_value": 473.0,
+            "third_value": 338.0
         },
         "trial": 11,
         "worker": 1
     },
     {
         "params": {
-            "eighth_value": 2.0,
-            "fifth_value": 17.0,
-            "first_value": 930.0,
-            "fourth_value": 66.0,
-            "second_value": 19.0,
-            "seventh_value": 12.0,
-            "sixth_value": 2.0,
-            "third_value": 48.0
+            "eighth_value": 130.0,
+            "fifth_value": 154.0,
+            "first_value": 8.0,
+            "fourth_value": 440.0,
+            "second_value": 225.0,
+            "seventh_value": 2.0,
+            "sixth_value": 72.0,
+            "third_value": 2.0
         },
-        "trial": 9,
+        "trial": 12,
+        "worker": 2
+    },
+    {
+        "params": {
+            "eighth_value": 574.0,
+            "fifth_value": 112.0,
+            "first_value": 4.0,
+            "fourth_value": 246.0,
+            "second_value": 103.0,
+            "seventh_value": 2.0,
+            "sixth_value": 32.0,
+            "third_value": 4.0
+        },
+        "trial": 13,
+        "worker": 3
+    },
+    {
+        "params": {
+            "eighth_value": 51.0,
+            "fifth_value": 194.0,
+            "first_value": 11.0,
+            "fourth_value": 255.0,
+            "second_value": 445.0,
+            "seventh_value": 129.0,
+            "sixth_value": 27.0,
+            "third_value": 13.0
+        },
+        "trial": 14,
         "worker": 4
     }
 ]

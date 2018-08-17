@@ -79,6 +79,9 @@
     },
     "search": {
         "iterations": 1000,
-        "method": "tpe"
+        "method": "atpe"
+    },
+    "ui": {
+        "enabled": false
     }
 }

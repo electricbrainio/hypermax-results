@@ -1,16 +1,16 @@
 {
-    "eighth_value": 22.0,
+    "eighth_value": 47.0,
     "error": null,
-    "fifth_value": 1.0,
-    "first_value": 393.0,
-    "fourth_value": 80.0,
+    "fifth_value": 23.0,
+    "first_value": 10.0,
+    "fourth_value": 462.0,
     "log": "",
-    "loss": 0.7798938495160787,
-    "second_value": 1.0,
-    "seventh_value": 202.0,
-    "sixth_value": 24.0,
+    "loss": 0.5919450515142054,
+    "second_value": 718.0,
+    "seventh_value": 6.0,
+    "sixth_value": 45.0,
     "status": "ok",
     "third_value": 2.0,
-    "time": 1.1e-05,
-    "trial": 6
+    "time": 1.2e-05,
+    "trial": 9
 }
