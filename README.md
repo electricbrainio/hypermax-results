@@ -20,9 +20,9 @@ Ideally, we want hyperparameter search results that were constructed in the foll
   - Again, constrain hyperparameter space once again to the best 10% of results from the second stage. Run another 1,000
     to 5,000 trials.
   - Lastly, to ensure that you include the global minima of the hyper-parameter space in your dataset, do a final stage
-    of hyper-parameter searching, but this time with an optimizer like TPE. With all of the data accumulated, it will
-    quickly home in on high-performing areas of your function. So just include another 100 to 200 runs with your optimizer
-    to put the "cherry" on your dataset.
+    of hyper-parameter searching, but this time with an optimizer like TPE or Hypermax's ATPE. With all of the data 
+    accumulated, it will quickly home in on high-performing areas of your search space. So just include another 100
+    to 200 runs with your optimizer to put the "cherry" on your dataset.
     
 You should result in a dataset that contains between 3,000 and 15,000 results for your hyperparameter search space.
 Naturally, if your hyperparameter search space is very small (only 2 or 3 parameters), we might need significantly
