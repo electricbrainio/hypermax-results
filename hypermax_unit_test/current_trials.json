@@ -1,0 +1,44 @@
+[
+    {
+        "params": {
+            "eighth_value": 30.0,
+            "fifth_value": 24.0,
+            "first_value": 37.0,
+            "fourth_value": 2.0,
+            "second_value": 175.0,
+            "seventh_value": 9.0,
+            "sixth_value": 94.0,
+            "third_value": 24.0
+        },
+        "trial": 10,
+        "worker": 0
+    },
+    {
+        "params": {
+            "eighth_value": 130.0,
+            "fifth_value": 2.0,
+            "first_value": 7.0,
+            "fourth_value": 23.0,
+            "second_value": 11.0,
+            "seventh_value": 257.0,
+            "sixth_value": 304.0,
+            "third_value": 14.0
+        },
+        "trial": 11,
+        "worker": 1
+    },
+    {
+        "params": {
+            "eighth_value": 2.0,
+            "fifth_value": 17.0,
+            "first_value": 930.0,
+            "fourth_value": 66.0,
+            "second_value": 19.0,
+            "seventh_value": 12.0,
+            "sixth_value": 2.0,
+            "third_value": 48.0
+        },
+        "trial": 9,
+        "worker": 4
+    }
+]

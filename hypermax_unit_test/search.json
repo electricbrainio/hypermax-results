@@ -1,0 +1,84 @@
+{
+    "function": {
+        "module": "hypermax.test_model",
+        "name": "trainModel",
+        "parallel": 5,
+        "type": "python_function"
+    },
+    "hypermax_results": {
+        "name": "hypermax_unit_test"
+    },
+    "hyperparameters": {
+        "properties": {
+            "eighth_value": {
+                "max": 1000,
+                "min": 1,
+                "mode": "uniform",
+                "rounding": 1,
+                "scaling": "logarithmic",
+                "type": "number"
+            },
+            "fifth_value": {
+                "max": 1000,
+                "min": 1,
+                "mode": "uniform",
+                "rounding": 1,
+                "scaling": "logarithmic",
+                "type": "number"
+            },
+            "first_value": {
+                "max": 1000,
+                "min": 1,
+                "mode": "uniform",
+                "rounding": 1,
+                "scaling": "logarithmic",
+                "type": "number"
+            },
+            "fourth_value": {
+                "max": 1000,
+                "min": 1,
+                "mode": "uniform",
+                "rounding": 1,
+                "scaling": "logarithmic",
+                "type": "number"
+            },
+            "second_value": {
+                "max": 1000,
+                "min": 1,
+                "mode": "uniform",
+                "rounding": 1,
+                "scaling": "logarithmic",
+                "type": "number"
+            },
+            "seventh_value": {
+                "max": 1000,
+                "min": 1,
+                "mode": "uniform",
+                "rounding": 1,
+                "scaling": "logarithmic",
+                "type": "number"
+            },
+            "sixth_value": {
+                "max": 1000,
+                "min": 1,
+                "mode": "uniform",
+                "rounding": 1,
+                "scaling": "logarithmic",
+                "type": "number"
+            },
+            "third_value": {
+                "max": 1000,
+                "min": 1,
+                "mode": "uniform",
+                "rounding": 1,
+                "scaling": "logarithmic",
+                "type": "number"
+            }
+        },
+        "type": "object"
+    },
+    "search": {
+        "iterations": 1000,
+        "method": "tpe"
+    }
+}
